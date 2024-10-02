@@ -1,0 +1,31 @@
+<nz-layout>
+  <app-header></app-header>
+  <nz-content>
+    <div class="inner-content">
+      <app-main></app-main>
+      <h2 class="gradient section-header">УСЛУГИ</h2>
+      <app-services></app-services>
+      <h2 class="gradient section-header">ЗА МАРТИН</h2>
+      <app-about></app-about>
+      <h2 class="gradient section-header">ОТЗИВИ</h2>
+      <nz-card>
+        <div nz-row [nzGutter]="16">
+            <div nz-col nzSpan="8">
+              <app-testimonial [message]="'Изключително съм доволен от услугата, която получих от Мартин Русков! Взе ми мярка за шина за бруксизъм много бързо и с голяма прецизност. Професионален и внимателен, той се погрижи да се чувствам комфортно през цялото време. Препоръчвам го с две ръце!'" [author]="'Димитър Русков'"></app-testimonial>
+            </div>
+            <div nz-col nzSpan="8">
+              <app-testimonial [message]="'Мартин Русков свърши страхотна работа с изработката на брекети за една от кравите във фермата, където работя! Кравата беше усмихната през цялото време и изглеждаше повече от доволна от резултата. Мартин се отнесе с голям професионализъм и внимание дори към най-малките детайли. Препоръчвам го дори за животни, които искат перфектната усмивка!'" [author]="'Иван Русков'"></app-testimonial>
+            </div>
+            <div nz-col nzSpan="8">
+              <app-testimonial [message]="'Мартин Русков свърши страхотна работа с изработката на брекети за една от кравите във фермата, където работя! Кравата беше усмихната през цялото време и изглеждаше повече от доволна от резултата. Мартин се отнесе с голям професионализъм и внимание дори към най-малките детайли. Препоръчвам го дори за животни, които искат перфектната усмивка!'" [author]="'Иван Русков'"></app-testimonial>
+            </div>
+        </div>
+      </nz-card>
+      <h2 class="gradient section-header">КОНТАКТИ</h2>
+      <app-contacts id="contacts"></app-contacts>
+      <h2 class="gradient section-header"></h2>
+      <!-- <nz-qrcode nzValue="https://martinruskov.com"></nz-qrcode> -->
+    </div>
+  </nz-content>
+  <nz-footer>Ant Design ©2024 Implemented By Dimitar Ruskov</nz-footer>
+</nz-layout>

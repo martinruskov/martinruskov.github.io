@@ -1,0 +1,29 @@
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+nz-card {
+    border: none;
+    max-width: 1200px;
+}
+
+.card-left {
+    flex-grow: 1;
+}
+
+:host ::ng-deep {
+    .ant-card-body {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+}
+
+.section-image {
+    max-height: 450px;
+    border-radius: 5px;
+}
