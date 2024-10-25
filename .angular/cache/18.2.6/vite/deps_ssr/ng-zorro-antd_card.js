@@ -1,11 +1,11 @@
 import { createRequire } from 'module';const require = createRequire(import.meta.url);
 import {
+  __decorate
+} from "./chunk-OGG6X3KK.js";
+import {
   NzOutletModule,
   NzStringTemplateOutletDirective
 } from "./chunk-HNGCBM5J.js";
-import {
-  __decorate
-} from "./chunk-OGG6X3KK.js";
 import {
   NzConfigService,
   WithConfig

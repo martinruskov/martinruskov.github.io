@@ -7,7 +7,6 @@ import { NzContentComponent, NzFooterComponent, NzHeaderComponent, NzLayoutCompo
 import { NzMenuItemComponent, NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzQRCodeModule } from 'ng-zorro-antd/qr-code';
 import { TestimonialComponent } from './testimonial/testimonial.component';
-import { SocialsComponent } from './socials/socials.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './about/about.component';
 import { MainComponent } from './main/main.component';
@@ -31,7 +30,6 @@ import { HeaderComponent } from './header/header.component';
     NzDividerComponent,
     NzMenuModule,
     TestimonialComponent,
-    SocialsComponent,
     ServicesComponent,
     AboutComponent,
     MainComponent,

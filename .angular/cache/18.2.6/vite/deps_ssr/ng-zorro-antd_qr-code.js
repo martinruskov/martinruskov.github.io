@@ -14,6 +14,8 @@ import {
   NzIconDirective,
   NzIconModule
 } from "./chunk-SVW5IIRM.js";
+import "./chunk-EEPUTGGT.js";
+import "./chunk-YYDDDJE3.js";
 import {
   NzConfigService,
   WithConfig
@@ -23,8 +25,6 @@ import {
   Directionality
 } from "./chunk-ZH6TJYGF.js";
 import "./chunk-M4NBKLH6.js";
-import "./chunk-EEPUTGGT.js";
-import "./chunk-YYDDDJE3.js";
 import "./chunk-OAWEFC5Y.js";
 import "./chunk-OIOAX3RD.js";
 import {

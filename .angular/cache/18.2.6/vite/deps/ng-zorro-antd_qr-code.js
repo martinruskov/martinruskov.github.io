@@ -5,23 +5,23 @@ import {
   NzButtonComponent,
   NzButtonModule,
   NzTransitionPatchDirective
-} from "./chunk-OBORPGRX.js";
+} from "./chunk-ESP3M4RP.js";
 import {
   NzIconDirective,
   NzIconModule
-} from "./chunk-DYD7354K.js";
+} from "./chunk-36QQ4KSC.js";
 import "./chunk-5WAMXR4O.js";
-import "./chunk-5AY537C4.js";
-import "./chunk-YMSJBD4O.js";
-import "./chunk-KRAARROL.js";
 import {
   NzConfigService,
   WithConfig
 } from "./chunk-32MQFNNS.js";
+import "./chunk-5AY537C4.js";
 import {
   Directionality
 } from "./chunk-FZ4NDQ3T.js";
 import "./chunk-AMVX54SL.js";
+import "./chunk-YMSJBD4O.js";
+import "./chunk-KRAARROL.js";
 import {
   NgTemplateOutlet,
   isPlatformBrowser
